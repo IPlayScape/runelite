@@ -40,7 +40,7 @@ import net.runelite.client.util.WildernessLocation;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Wild Locations",
+	name = "✓ Wild Locations",
 	description = "Indicates the players current location in the wild",
 	tags = {"Wildy", "Wilderness Location", "location", "loc", "pvp", "pklite"},
 	type = PluginType.PVP,
