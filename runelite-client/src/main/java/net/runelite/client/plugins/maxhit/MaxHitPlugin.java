@@ -43,7 +43,7 @@ import net.runelite.client.plugins.maxhit.calculators.MeleeMaxHitCalculator;
 import net.runelite.client.plugins.maxhit.calculators.RangeMaxHitCalculator;
 
 @PluginDescriptor(
-	name = "Max Hit",
+	name = "✓ Max Hit",
 	description = "Max Hit Calculator",
 	type = PluginType.UTILITY,
 	enabledByDefault = false

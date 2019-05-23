@@ -69,7 +69,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.util.Text;
 
 @PluginDescriptor(
-	name = "Slayermusiq1 Guides",
+	name = "✓ Slayermusiq1 Guides",
 	description = "Adds a right-click option to go to Slayermusiq1's guides from the quest tab",
 	tags = {"quest", "guide", "slayermusiq"},
 	type = PluginType.UTILITY,

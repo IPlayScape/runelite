@@ -52,7 +52,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import org.apache.commons.lang3.ArrayUtils;
 
 @PluginDescriptor(
-	name = "War calling indicators",
+	name = "✓ War calling indicators",
 	description = "War War War.",
 	tags = {"skill", "total", "max", "PVP"},
 	type = PluginType.PVP,
