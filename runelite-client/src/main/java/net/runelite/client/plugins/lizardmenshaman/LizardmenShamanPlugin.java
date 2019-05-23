@@ -44,7 +44,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Lizard Shamans",
+	name = "✓ Lizard Shamans",
 	description = "Configures timer for lizardmen shaman spawns.",
 	enabledByDefault = false,
 	tags = {"shaman", "lizard", "lizardmen"},

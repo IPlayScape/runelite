@@ -52,7 +52,7 @@ import net.runelite.client.plugins.PluginType;
 
 
 @PluginDescriptor(
-	name = "ToB Damage Counter",
+	name = "✓ ToB Damage Counter",
 	description = "Gives you an estimation damage on a boss and taken after the fight is done" +
 		"the damage will be posted in the chat",
 	tags = {"combat", "npcs", "tob", "damage"},
