@@ -91,7 +91,7 @@ import net.runelite.client.util.ImageUtil;
 import net.runelite.client.util.Text;
 
 @PluginDescriptor(
-	name = "Stoned Loot Tracker",
+	name = "✓ Stoned Loot Tracker",
 	description = "Tracks loot from monsters and minigames",
 	tags = {"drops"},
 	type = PluginType.UTILITY,
