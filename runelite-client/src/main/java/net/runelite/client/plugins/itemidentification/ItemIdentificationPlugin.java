@@ -32,7 +32,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Item Identification",
+	name = "✓ Item Identification",
 	description = "Show identifying text over items with difficult to distinguish sprites",
 	enabledByDefault = false
 )
