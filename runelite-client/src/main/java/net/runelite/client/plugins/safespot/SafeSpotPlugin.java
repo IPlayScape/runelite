@@ -32,7 +32,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "1 Way Safe Spots",
+	name = "✓ 1 Way Safe Spots",
 	description = "Renders tile overlays for one way safe spots",
 	tags = {"safe spot", "pvp", "safespots", "pklite"},
 	type = PluginType.UTILITY,

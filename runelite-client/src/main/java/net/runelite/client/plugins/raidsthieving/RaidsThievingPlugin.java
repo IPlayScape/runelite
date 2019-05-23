@@ -54,7 +54,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Raids Bat Finder",
+	name = "✓ Raids Bat Finder",
 	description = "Tracks which chests need to be searched for bats and which poison",
 	tags = {"overlay", "skilling", "raid"},
 	type = PluginType.PVM
