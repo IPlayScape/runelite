@@ -57,7 +57,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import org.apache.commons.lang3.ArrayUtils;
 
 @PluginDescriptor(
-	name = "Fight Cave",
+	name = "✓ Fight Cave",
 	description = "Displays current and upcoming wave monsters in the Fight Caves",
 	tags = {"bosses", "combat", "minigame", "overlay", "pve", "pvm", "jad", "fire", "cape", "wave"},
 	type = PluginType.PVM,
