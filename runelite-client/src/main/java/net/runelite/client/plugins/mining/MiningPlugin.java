@@ -57,7 +57,7 @@ import net.runelite.client.task.Schedule;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Mining",
+	name = "✓ Mining",
 	description = "Show helpful information about Mining",
 	tags = {"mining", "skilling", "overlay"},
 	type = PluginType.SKILLING,
