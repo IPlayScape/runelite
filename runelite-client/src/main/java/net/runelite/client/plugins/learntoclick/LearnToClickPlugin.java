@@ -26,7 +26,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 
 @PluginDescriptor(
-	name = "Learn to Click",
+	name = "✕ Learn to Click",
 	description = "A few modifications to prevent misclicks",
 	tags = {"pk", "misclick", "compass", "map", "auto retaliate"},
 	type = PluginType.PVP,
