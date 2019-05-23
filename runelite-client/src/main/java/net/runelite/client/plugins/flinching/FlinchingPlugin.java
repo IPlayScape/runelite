@@ -50,7 +50,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Flinching Timer",
+	name = "✓ Flinching Timer",
 	description = "Time your attacks while flinching",
 	tags = {"overlay", "flinching", "timers", "combat"},
 	type = PluginType.PVM,
