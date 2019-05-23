@@ -53,7 +53,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.ImageUtil;
 
 @PluginDescriptor(
-	name = "Pray Against Player",
+	name = "✓ Pray Against Player",
 	description = "Use plugin in PvP situations for best results!!",
 	tags = {"highlight", "pvp", "overlay", "players"},
 	type = PluginType.PVP,
