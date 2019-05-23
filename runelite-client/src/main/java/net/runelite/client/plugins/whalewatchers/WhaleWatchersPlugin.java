@@ -40,7 +40,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import org.apache.commons.lang3.ObjectUtils;
 
 @PluginDescriptor(
-	name = "Whale Watchers",
+	name = "✓ Whale Watchers",
 	description = "A Plugin to save help whales in the wild",
 	tags = {"whale watchers", "whale", "protect item", "warning", "pklite"},
 	type = PluginType.PVP,
