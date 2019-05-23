@@ -178,7 +178,7 @@ import net.runelite.http.api.item.ItemPrice;
 
 
 @PluginDescriptor(
-	name = "Supplies Used Tracker",
+	name = "✓ Supplies Used Tracker",
 	description = "Tracks supplies used during the session",
 	tags = {"cost"},
 	type = PluginType.UTILITY,

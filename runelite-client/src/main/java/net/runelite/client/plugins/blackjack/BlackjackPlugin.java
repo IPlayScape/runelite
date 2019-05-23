@@ -46,7 +46,7 @@ import static net.runelite.client.util.MenuUtil.swap;
  * Authors gazivodag longstreet
  */
 @PluginDescriptor(
-	name = "Blackjack",
+	name = "✕ Blackjack",
 	description = "Uses chat messages and tick timers instead of animations to read",
 	tags = {"blackjack", "thieving"},
 	type = PluginType.SKILLING
