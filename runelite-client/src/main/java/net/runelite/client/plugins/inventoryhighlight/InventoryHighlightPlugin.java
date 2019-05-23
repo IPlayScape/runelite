@@ -39,7 +39,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Inventory Highlight",
+	name = "✓ Inventory Highlight",
 	description = "Shows a preview of where items will be dragged",
 	tags = {"items", "overlay"},
 	enabledByDefault = false,
