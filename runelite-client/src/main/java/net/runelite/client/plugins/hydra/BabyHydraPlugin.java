@@ -44,7 +44,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Hydra Helper",
+	name = "✓ Hydra Helper",
 	description = "Overlays for small hydras",
 	tags = {"Hydra", "Helper", "you", "probably", "want", "the", "other", "one"},
 	type = PluginType.PVM,
