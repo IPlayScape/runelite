@@ -45,7 +45,7 @@ import net.runelite.client.util.MiscUtils;
 import net.runelite.client.util.Text;
 
 @PluginDescriptor(
-	name = "Menu Modifier",
+	name = "✕ Menu Modifier",
 	description = "Changes right click menu for players",
 	tags = {"menu", "modifier", "right", "click", "pk", "bogla"},
 	enabledByDefault = false,

@@ -37,7 +37,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Freeze Timers",
+	name = "✓ Freeze Timers",
 	description = "Shows a freeze timer overlay on players",
 	tags = {"freeze", "timers", "barrage", "teleblock", "pklite"},
 	type = PluginType.PVP

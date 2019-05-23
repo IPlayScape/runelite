@@ -94,7 +94,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 @Slf4j
 @PluginDescriptor(
-	name = "BA Tools",
+	name = "✕ BA Tools",
 	description = "Custom tools for Barbarian Assault",
 	tags = {"minigame", "overlay", "timer"},
 	type = PluginType.PVM

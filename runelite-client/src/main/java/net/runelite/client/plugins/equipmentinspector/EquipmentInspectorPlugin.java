@@ -62,7 +62,7 @@ import net.runelite.client.util.ImageUtil;
 import net.runelite.client.util.Text;
 
 @PluginDescriptor(
-	name = "Equipment Inspector",
+	name = "✓ Equipment Inspector",
 	enabledByDefault = false,
 	type = PluginType.PVP
 )

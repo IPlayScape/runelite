@@ -31,7 +31,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Vanguard HP Overlay",
+	name = "✓ Vanguard HP Overlay",
 	description = "tracks HP of all three vanguards",
 	tags = {"overlay", "vangs", "cox"},
 	enabledByDefault = false,
