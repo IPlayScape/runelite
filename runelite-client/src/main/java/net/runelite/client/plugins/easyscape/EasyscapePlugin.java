@@ -57,7 +57,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 
 @PluginDescriptor(
-	name = "✕ Easyscape",
+	name = "Easyscape",
 	type = PluginType.UTILITY
 )
 public class EasyscapePlugin extends Plugin
