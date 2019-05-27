@@ -42,10 +42,10 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "Freeze Timers",
-	description = "Shows a freeze timer overlay on players",
-	tags = {"freeze", "timers", "barrage", "teleblock", "pklite"},
-	type = PluginType.PVP
+		name = "Freeze Timers",
+		description = "Shows a freeze timer overlay on players",
+		tags = {"freeze", "timers", "barrage", "teleblock", "pklite"},
+		type = PluginType.PVP
 )
 public class FreezeTimersPlugin extends Plugin
 {
@@ -107,7 +107,7 @@ public class FreezeTimersPlugin extends Plugin
 			return;
 		}
 		timers.setTimerEnd(graphicChanged.getActor(), effect.getType(),
-			System.currentTimeMillis() + length);
+				System.currentTimeMillis() + length);
 	}
 
 	@Subscribe
