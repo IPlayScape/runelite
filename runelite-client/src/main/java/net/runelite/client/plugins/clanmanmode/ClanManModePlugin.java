@@ -28,7 +28,7 @@ import net.runelite.client.util.Text;
 import org.apache.commons.lang3.ArrayUtils;
 
 @PluginDescriptor(
-	name = "✓ Clan Man Mode",
+	name = "Clan Man Mode",
 	description = "Assists in clan PVP scenarios",
 	tags = {"highlight", "minimap", "overlay", "players"},
 	type = PluginType.PVP,
