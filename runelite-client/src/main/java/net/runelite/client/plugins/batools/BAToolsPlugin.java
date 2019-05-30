@@ -96,7 +96,7 @@ import net.runelite.client.menus.MenuManager;
 
 @Slf4j
 @PluginDescriptor(
-	name = "✕ BA Tools",
+	name = "BA Tools",
 	description = "Custom tools for Barbarian Assault",
 	tags = {"minigame", "overlay", "timer"},
 	type = PluginType.PVM,
