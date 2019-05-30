@@ -1039,20 +1039,6 @@ public class ConfigPanel extends PluginPanel
 						reloadPluginlist(listItem, config, cd);
 					}
 				}
-
-				if (checkbox.isSelected())
-				{
-					if (cid2.getItem().enabledBy().equals(cid.getItem().keyName()))
-					{
-						configManager.setConfiguration(cd.getGroup().value(), cid2.getItem().keyName(), "true");
-						openGroupConfigPanel(listItem, config, cd);
-					}
-					else if (cid2.getItem().disabledBy().equals(cid.getItem().keyName()))
-					{
-						configManager.setConfiguration(cd.getGroup().value(), cid2.getItem().keyName(), "false");
-						openGroupConfigPanel(listItem, config, cd);
-					}
-				}
 			}
 		}
 		else if (component instanceof JSpinner)
