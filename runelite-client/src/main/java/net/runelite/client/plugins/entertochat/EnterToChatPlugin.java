@@ -50,7 +50,7 @@ import net.runelite.client.ui.JagexColors;
 import net.runelite.client.util.ColorUtil;
 
 @PluginDescriptor(
-	name = "✓ Press Enter to Chat",
+	name = "Press Enter to Chat",
 	description = "'Press Enter to Chat'",
 	tags = {"enter", "chat"},
 	type = PluginType.UTILITY,
