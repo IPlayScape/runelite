@@ -53,7 +53,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.Text;
 
 @PluginDescriptor(
-	name = "✓ Theater of Blood",
+	name = "Theater of Blood",
 	description = "All-in-one plugin for Theatre of Blood",
 	tags = {"ToB", "theatre", "blood"},
 	enabledByDefault = false,

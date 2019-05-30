@@ -90,7 +90,7 @@ import net.runelite.client.util.Text;
 import org.apache.commons.lang3.StringUtils;
 
 @PluginDescriptor(
-	name = "✓ Chambers Of Xeric",
+	name = "Chambers Of Xeric",
 	description = "Show helpful information for the Chambers of Xeric raid",
 	tags = {"combat", "raid", "overlay", "pve", "pvm", "bosses", "cox", "olm"},
 	type = PluginType.PVM

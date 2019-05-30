@@ -29,7 +29,7 @@ import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.plugins.PluginType;
 
-@PluginDescriptor(name = "✓ Tick Counter",
+@PluginDescriptor(name = "Tick Counter",
 	description = "Counts combat activity for nearby players",
 	enabledByDefault = false,
 	type = PluginType.PVP

@@ -32,7 +32,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "✓ PvP Looting Bag Viewer",
+	name = "PvP Looting Bag Viewer",
 	description = "Add an overlay showing the contents of your looting bag",
 	tags = {"alternate", "items", "overlay", "second"},
 	type = PluginType.PVP,
