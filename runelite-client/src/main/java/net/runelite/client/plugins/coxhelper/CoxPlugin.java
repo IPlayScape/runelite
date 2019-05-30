@@ -64,7 +64,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "✓ CoX Helper",
+	name = "CoX Helper",
 	description = "All-in-one plugin for Chambers of Xeric",
 	tags = {"CoX", "chamber", "xeric", "helper"},
 	enabledByDefault = false,
