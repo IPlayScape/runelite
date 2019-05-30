@@ -17,7 +17,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "✓ Loot Assist Plugin",
+	name = "Loot Assist Plugin",
 	description = "Creates a tile overlay with a timer that counts down to when the loot will appear to you",
 	tags = {"pklite", "loot", "looting", "loot assist", "assist", "loot assist"},
 	type = PluginType.PVP,
