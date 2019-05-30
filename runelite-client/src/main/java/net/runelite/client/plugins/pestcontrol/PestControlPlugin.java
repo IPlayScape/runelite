@@ -67,7 +67,7 @@ import net.runelite.client.util.Text;
 
 @Slf4j
 @PluginDescriptor(
-	name = "✓ Pest Control",
+	name = "Pest Control",
 	description = "Show helpful information for the Pest Control minigame",
 	tags = {"minigame", "overlay"}
 )
