@@ -46,7 +46,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 @Slf4j
 @PluginDescriptor(
-	name = "✓ Friend Tagging",
+	name = "Friend Tagging",
 	description = "Tag people on your friends list.",
 	tags = {"PVP", "friend", "finder", "pk", "pklite"},
 	type = PluginType.UTILITY,
