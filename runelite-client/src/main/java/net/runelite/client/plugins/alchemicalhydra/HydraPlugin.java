@@ -53,7 +53,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "✓ Alchemical Hydra",
+	name = "Alchemical Hydra",
 	description = "Show what to pray against hydra",
 	tags = {"Hydra", "Lazy", "4 headed asshole"},
 	type = PluginType.PVM,
