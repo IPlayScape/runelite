@@ -64,7 +64,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.Text;
 
 @PluginDescriptor(
-	name = "✕ Spellbook",
+	name = "Spellbook",
 	description = "Modifications to the spellbook",
 	tags = {"resize", "spell", "mobile", "lowers", "pvp", "skill", "level"},
 	type = PluginType.UTILITY,
