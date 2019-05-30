@@ -51,7 +51,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "✓ High Alchemy",
+	name = "High Alchemy",
 	description = "*Highlights items that yield a profit from casting High Alchemy.",
 	tags = {"bank", "inventory", "overlay", "high", "alchemy", "grand", "exchange", "tooltips"},
 	type = PluginType.UTILITY,
