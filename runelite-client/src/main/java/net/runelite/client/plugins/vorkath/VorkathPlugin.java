@@ -46,7 +46,7 @@ import net.runelite.client.util.ImageUtil;
 import org.apache.commons.lang3.ArrayUtils;
 
 @PluginDescriptor(
-	name = "✓ Vorkath Helper",
+	name = "Vorkath Helper",
 	description = "Count vorkath attacks, and which phase is coming next",
 	tags = {"combat", "overlay", "pve", "pvm"},
 	type = PluginType.PVM,
