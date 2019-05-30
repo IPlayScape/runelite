@@ -78,7 +78,7 @@ public class PyramidPlunderOverlay extends Overlay
 			Tile tile = entry.getValue();
 
 			if (tile.getPlane() == client.getPlane() &&
-				object.getLocalLocation().distanceTo(playerLocation) < MAX_DISTANCE)
+					object.getLocalLocation().distanceTo(playerLocation) < MAX_DISTANCE)
 			{
 				int objectID = object.getId();
 				if (object.getId() == CLOSED_DOOR || object.getId() == OPENED_DOOR)
