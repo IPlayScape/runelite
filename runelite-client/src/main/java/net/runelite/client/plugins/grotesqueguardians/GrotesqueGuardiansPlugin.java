@@ -31,7 +31,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "✓ Grotesque Guardians",
+	name = "Grotesque Guardians",
 	description = "Display tile indicators for the Grotesque Guardian special attacks",
 	tags = {"grotesque", "guardians", "gargoyle", "garg"},
 	type = PluginType.PVM

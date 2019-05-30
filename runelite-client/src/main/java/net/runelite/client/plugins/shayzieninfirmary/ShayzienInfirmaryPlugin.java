@@ -41,7 +41,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 
 @Slf4j
 @PluginDescriptor(
-	name = "✓ Shayzien Infirmary",
+	name = "Shayzien Infirmary",
 	description = "Shows the status of wounded soldiers",
 	tags = {"shayzien", "infirmary", "soldiers"},
 	type = PluginType.UTILITY
