@@ -44,7 +44,7 @@ import net.runelite.client.plugins.maxhit.calculators.RangeMaxHitCalculator;
 
 @PluginDescriptor(
 	name = "Max Hit",
-	description = "Adds the max hit of the equipped weapon to the equipment and stats widget",
+	description = "Max Hit Calculator",
 	type = PluginType.UTILITY,
 	enabledByDefault = false
 )
@@ -134,4 +134,5 @@ public class MaxHitPlugin extends Plugin
 			return maxMagicHit;
 		}
 	}
+
 }
