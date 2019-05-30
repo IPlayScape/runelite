@@ -33,7 +33,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.plugins.PluginType;
 
 @PluginDescriptor(
-	name = "✓ Spec Bar",
+	name = "Spec Bar",
 	description = "Adds a spec bar to every weapon",
 	tags = {"spec bar", "special attack", "spec", "bar", "pklite"},
 	enabledByDefault = false,

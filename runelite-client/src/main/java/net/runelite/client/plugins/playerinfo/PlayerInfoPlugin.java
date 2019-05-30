@@ -42,7 +42,7 @@ import static net.runelite.client.plugins.playerinfo.PlayerInfoCustomIndicator.I
 import net.runelite.client.ui.overlay.infobox.InfoBoxManager;
 
 @PluginDescriptor(
-	name = "✓ Player Information",
+	name = "Player Information",
 	description = "An alternative to the Minimap Orbs",
 	tags = {"combat", "overlay"},
 	type = PluginType.UTILITY,
