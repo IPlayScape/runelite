@@ -39,7 +39,7 @@ import net.runelite.client.plugins.PluginType;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-	name = "✓ Vetion Helper",
+	name = "Vetion Helper",
 	description = "Tracks Vet'ion's special attacks",
 	tags = {"bosses", "combat", "pve", "overlay"},
 	type = PluginType.PVM,
