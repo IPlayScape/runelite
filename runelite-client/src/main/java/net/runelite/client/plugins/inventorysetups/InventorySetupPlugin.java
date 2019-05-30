@@ -61,7 +61,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.ImageUtil;
 
 @PluginDescriptor(
-	name = "✓ Inventory Setups",
+	name = "Inventory Setups",
 	description = "Save inventory setups",
 	tags = {"items", "inventory", "setups"},
 	type = PluginType.UTILITY,
