@@ -95,12 +95,12 @@ public interface XpDropConfig extends Config
 	}
 
 	@ConfigItem(
-		keyName = "showdamagedrops",
+		keyName = "showDamage",
 		name = "Show Damage on XP Drop",
 		description = "Show what you hit next to the XP drop",
 		position = 5
 	)
-	default DamageMode showdamagedrops()
+	default DamageMode showdamage()
 	{
 		return DamageMode.NONE;
 	}
