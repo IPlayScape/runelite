@@ -73,11 +73,11 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.ui.overlay.infobox.InfoBoxManager;
 
 @PluginDescriptor(
-	name = "PyramidPlunder",
-	description = "Highlights doors and spear traps in pyramid plunder and adds a numerical timer",
-	tags = {"pyramidplunder", "pyramid", "plunder", "overlay", "skilling", "thieving"},
-	type = PluginType.UTILITY,
-	enabledByDefault = false
+		name = "PyramidPlunder",
+		description = "Highlights doors and spear traps in pyramid plunder and adds a numerical timer",
+		tags = {"pyramidplunder", "pyramid", "plunder", "overlay", "skilling", "thieving"},
+		type = PluginType.UTILITY,
+		enabledByDefault = false
 )
 
 public class PyramidPlunderPlugin extends Plugin
@@ -90,21 +90,21 @@ public class PyramidPlunderPlugin extends Plugin
 
 	// Next 2 are in here for anyone who wants to spend more time on this
 	private static final Set<Integer> LOOTABLE = ImmutableSet.of(
-		GRAND_GOLD_CHEST,
-		SARCOPHAGUS_21255,
-		URN_21261,
-		URN_21262,
-		URN_21263
+			GRAND_GOLD_CHEST,
+			SARCOPHAGUS_21255,
+			URN_21261,
+			URN_21262,
+			URN_21263
 	);
 	private static final Set<Integer> LOOTED = ImmutableSet.of(
-		OPENED_GOLD_CHEST,
-		SARCOPHAGUS_21256,
-		URN_21265,
-		URN_21266,
-		URN_21267
+			OPENED_GOLD_CHEST,
+			SARCOPHAGUS_21256,
+			URN_21265,
+			URN_21266,
+			URN_21267
 	);
 	private static final Set<Integer> DOOR_WALL_IDS = ImmutableSet.of(
-		26618, 26619, 26620, 26621
+			26618, 26619, 26620, 26621
 	);
 
 	@Getter
@@ -191,12 +191,12 @@ public class PyramidPlunderPlugin extends Plugin
 		removeTimer();
 
 		infoBoxManager.addInfoBox(
-			new PyramidPlunderTimer(
-				this,
-				itemManager.getImage(PHARAOHS_SCEPTRE),
-				period,
-				chronoUnit
-			)
+				new PyramidPlunderTimer(
+						this,
+						itemManager.getImage(PHARAOHS_SCEPTRE),
+						period,
+						chronoUnit
+				)
 		);
 	}
 
@@ -316,7 +316,7 @@ public class PyramidPlunderPlugin extends Plugin
 
 		int id = newObject.getId();
 		if (id == TRAP && config.highlightSpearTrap() ||
-			(DOOR_WALL_IDS.contains(id) || id == OPENED_DOOR || id == CLOSED_DOOR) && config.highlightDoors())
+				(DOOR_WALL_IDS.contains(id) || id == OPENED_DOOR || id == CLOSED_DOOR) && config.highlightDoors())
 		{
 			highlighted.put(newObject, tile);
 		}

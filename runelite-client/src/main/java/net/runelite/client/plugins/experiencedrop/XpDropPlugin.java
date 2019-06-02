@@ -113,7 +113,7 @@ public class XpDropPlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		damageMode = config.showdamagedrops();
+		damageMode = config.showdamage();
 
 		if (damageMode == XpDropConfig.DamageMode.ABOVE_OPPONENT)
 		{
@@ -138,7 +138,7 @@ public class XpDropPlugin extends Plugin
 
 		if (damageMode != XpDropConfig.DamageMode.ABOVE_OPPONENT)
 		{
-			damageMode = config.showdamagedrops();
+			damageMode = config.showdamage();
 
 			if (damageMode == XpDropConfig.DamageMode.ABOVE_OPPONENT)
 			{
@@ -147,7 +147,7 @@ public class XpDropPlugin extends Plugin
 		}
 		else
 		{
-			damageMode = config.showdamagedrops();
+			damageMode = config.showdamage();
 
 			if (damageMode != XpDropConfig.DamageMode.ABOVE_OPPONENT)
 			{
@@ -343,19 +343,15 @@ public class XpDropPlugin extends Plugin
 	@Subscribe
 	public void onScriptCallbackEvent(ScriptCallbackEvent e)
 	{
-		if (config.showdamagedrops() == XpDropConfig.DamageMode.NONE)
+		if (config.showdamage() == XpDropConfig.DamageMode.NONE)
 		{
 			return;
 		}
 
 		final String eventName = e.getEventName();
 
-		if (eventName.equals("newXpDrop"))
-		{
-			damage = 0;
-		}
 		// Handles Fake XP drops (Ironman, DMM Cap, 200m xp, etc)
-		else if (eventName.equals("fakeXpDrop"))
+		if (eventName.equals("fakeXpDrop"))
 		{
 			final int[] intStack = client.getIntStack();
 			final int intStackSize = client.getIntStackSize();
