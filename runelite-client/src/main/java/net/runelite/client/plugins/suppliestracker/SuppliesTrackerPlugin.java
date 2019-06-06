@@ -184,7 +184,6 @@ import net.runelite.http.api.item.ItemPrice;
 	type = PluginType.UTILITY,
 	enabledByDefault = false
 )
-
 @Slf4j
 public class SuppliesTrackerPlugin extends Plugin
 {
