@@ -45,8 +45,10 @@ import net.runelite.client.ui.overlay.OverlayManager;
 	name = "Freeze Timers",
 	description = "Shows a freeze timer overlay on players",
 	tags = {"freeze", "timers", "barrage", "teleblock", "pklite"},
-	type = PluginType.PVP
+	type = PluginType.PVP,
+	enabledByDefault = false
 )
+
 public class FreezeTimersPlugin extends Plugin
 {
 	private final Map<String, FreezeInfo> freezes = new HashMap<>();
@@ -87,7 +89,7 @@ public class FreezeTimersPlugin extends Plugin
 	public void onGraphicChanged(GraphicChanged graphicChanged)
 	{
 		int oldGraphic = prayerTracker.getSpotanimLastTick(graphicChanged.getActor());
-		int newGraphic = graphicChanged.getActor().getGraphic();
+		int newGraphic = graphicChanged.getActor().getSpotAnimation();
 		if (oldGraphic == newGraphic)
 		{
 			return;
@@ -117,7 +119,7 @@ public class FreezeTimersPlugin extends Plugin
 		prayerTracker.gameTick();
 		for (Actor actor : client.getPlayers())
 		{
-			if (prayerTracker.getSpotanimLastTick(actor) != actor.getGraphic())
+			if (prayerTracker.getSpotanimLastTick(actor) != actor.getSpotAnimation())
 			{
 				GraphicChanged callback = new GraphicChanged();
 				callback.setActor(actor);
