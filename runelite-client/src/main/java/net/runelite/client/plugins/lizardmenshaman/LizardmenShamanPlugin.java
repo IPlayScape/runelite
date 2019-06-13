@@ -46,11 +46,10 @@ import net.runelite.client.ui.overlay.OverlayManager;
 @PluginDescriptor(
 	name = "Lizard Shamans",
 	description = "Configures timer for lizardmen shaman spawns.",
+	enabledByDefault = false,
 	tags = {"shaman", "lizard", "lizardmen"},
-	type = PluginType.PVM,
-	enabledByDefault = false
+	type = PluginType.PVM
 )
-
 @Slf4j
 public class LizardmenShamanPlugin extends Plugin
 {
