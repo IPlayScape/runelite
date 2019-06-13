@@ -75,7 +75,6 @@ import net.runelite.client.util.Text;
 	type = PluginType.UTILITY,
 	enabledByDefault = false
 )
-
 @Slf4j
 public class SlayermusiqPlugin extends Plugin
 {
