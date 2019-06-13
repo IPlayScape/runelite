@@ -44,7 +44,6 @@ import net.runelite.client.plugins.PluginType;
 	type = PluginType.UTILITY,
 	enabledByDefault = false
 )
-
 public class RememberClanPlugin extends Plugin
 {
 
