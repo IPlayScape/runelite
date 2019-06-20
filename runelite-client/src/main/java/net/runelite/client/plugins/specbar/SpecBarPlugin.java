@@ -36,10 +36,9 @@ import net.runelite.client.plugins.PluginType;
 	name = "Spec Bar",
 	description = "Adds a spec bar to every weapon",
 	tags = {"spec bar", "special attack", "spec", "bar", "pklite"},
-	type = PluginType.PVP,
-	enabledByDefault = false
+	enabledByDefault = false,
+	type = PluginType.PVP
 )
-
 public class SpecBarPlugin extends Plugin
 {
 
