@@ -44,10 +44,8 @@ import net.runelite.client.ui.overlay.OverlayManager;
 	name = "Shayzien Infirmary",
 	description = "Shows the status of wounded soldiers",
 	tags = {"shayzien", "infirmary", "soldiers"},
-	type = PluginType.UTILITY,
-	enabledByDefault = false
+	type = PluginType.UTILITY
 )
-
 public class ShayzienInfirmaryPlugin extends Plugin
 {
 	@Getter(AccessLevel.PACKAGE)
