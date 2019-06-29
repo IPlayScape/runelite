@@ -57,10 +57,8 @@ import net.runelite.client.ui.overlay.OverlayManager;
 	name = "Raids Bat Finder",
 	description = "Tracks which chests need to be searched for bats and which poison",
 	tags = {"overlay", "skilling", "raid"},
-	type = PluginType.PVM,
-	enabledByDefault = false
+	type = PluginType.PVM
 )
-
 public class RaidsThievingPlugin extends Plugin
 {
 	@Inject
